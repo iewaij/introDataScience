@@ -10,6 +10,8 @@
 笔记假定读者是以中文为母语、对数据科学感兴趣的入门者，故以中文为主、英语为注释进行创作，原课件为英文而作者亦无中文相关背景，故必然存在翻译纰漏，还请海涵并指出。  
 Given the assumption that readers are Chinese speakers and interested in Data Science, this note will be written primarily in Chinese and using English as captions.
 
+peace.
+
 ## 知识储备
 默认读者具有以下知识：
 * 统计学基础：理解方差、平均值、线性回归、概率等基本概念
