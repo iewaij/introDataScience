@@ -5,7 +5,7 @@
 
 本系列笔记基于两门数据科学导论课，分别是加州大学伯克利校区 [DS100](http://www.ds100.org/sp17/syllabus) 与哈佛大学 [CS109](http://cs109.github.io/2015/pages/videos.html)，质量颇高。特别感谢制作这两门课程的 Joe Blitzstein、Hanspeter Pfister、Verena Kaynig-Fittkau、Joseph E. Gonzalez、Joseph Hellerstein、Deborah Nolan 和 Bin Yu。
 
-本系列笔记使用 Python3 和 Jupyter Notebook。
+本系列笔记使用 Python3 和 Jupyter Notebook。于[知乎专栏](https://zhuanlan.zhihu.com/introdatascience)亦有更新。
 
 本系列笔记假定读者是以中文为母语、对数据科学感兴趣的入门者，故以中文为主、英语为注释进行创作，原课件为英文而作者亦无中文相关背景，故必然存在翻译纰漏，还请海涵并指出。  
 Given the assumption that readers are Chinese speakers and interested in Data Science, this note will be written primarily in Chinese and using English as captions.
