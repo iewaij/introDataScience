@@ -1,14 +1,12 @@
 # 数据科学导论
 ## 作者按
-数据科学那么火，资源那么多，但找遍中文互联网都找不到系统、稍微过得去的笔记，于是就想着自己做一份。我认知中的优秀笔记是 [CS231n 中文笔记](https://zhuanlan.zhihu.com/p/21930884?refer=intelligentunit)，希望这系列笔记能达到它的质量。
+数据科学那么火，资源那么多，但找遍中文互联网都找不到系统、稍微过得去的笔记，于是就想着自己做一份。我认知中的优秀笔记是 [CS231n 中文笔记](https://zhuanlan.zhihu.com/p/21930884?refer=intelligentunit)，希望这系列笔记能达到它的质量。欢迎加星、合作、提问题、增改内容。
 
 关于数据科学学科介绍的文章、鸡血颇多，因此不再赘述，简而言之，数据科学是计算机科学、统计学、相关领域的结合，以数据、统计思维和计算思维解决问题。而我相信体验数据科学的最佳方式，就是亲手实践。
 
-本系列笔记基于两门数据科学导论课，分别是加州大学伯克利校区 [DS100](http://www.ds100.org/sp17/syllabus) 与哈佛大学 [CS109](http://cs109.github.io/2015/pages/videos.html)，质量颇高。
+本系列笔记基于两门数据科学导论课，分别是加州大学伯克利校区 [DS100](http://www.ds100.org/sp17/syllabus) 与哈佛大学 [CS109](http://cs109.github.io/2015/pages/videos.html)，质量颇高。特别感谢制作这两门课程的 Joe Blitzstein、Hanspeter Pfister、Verena Kaynig-Fittkau、Joseph E. Gonzalez、Joseph Hellerstein、Deborah Nolan 和 Bin Yu。
 
 本系列笔记使用 Python3 和 Jupyter Notebook。
-
-欢迎加星、合作、提问题、增改内容。
 
 本系列笔记假定读者是以中文为母语、对数据科学感兴趣的入门者，故以中文为主、英语为注释进行创作，原课件为英文而作者亦无中文相关背景，故必然存在翻译纰漏，还请海涵并指出。  
 Given the assumption that readers are Chinese speakers and interested in Data Science, this note will be written primarily in Chinese and using English as captions.
