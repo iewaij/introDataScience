@@ -39,8 +39,7 @@ HTML 代码的特点有：
 
 在 Chrome 或者 Safari 浏览器里，你只要右键网页-检查就能找到你需要的数据对应的 HTML 代码。
 
-![](%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E4%B8%8E%E6%95%B4%E7%90%86/https://ws1.sinaimg.cn/large/006tKfTcgy1fica17mz53j31kw19ch22.jpg)
-![](%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E4%B8%8E%E6%95%B4%E7%90%86/Screen%20Shot%202017-08-08%20at%201.03.23%20PM.png)
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fica17mz53j31kw19ch22.jpg)
 
 你可以硬着头皮用正则表达式筛选出你要的数据，更好的方法是用现成的分析 HTML 的工具，例如 BeautifulSoup、[Selenium](http://selenium-python.readthedocs.org/en/latest/index.html)。
 
@@ -154,8 +153,7 @@ Pandas 是 Wes McKinney 开发的专门用于数据操作的 Python 第三方库
 2. 某种程度上，程序员就是复制粘贴 Stack Overflow 上的代码然后跑通的人。 
 3. 使用快捷键。Jupyter Notebook 中，按 `Tab` 自动补全命令；在命令后加上 `?` 可以弹出手册界面，`esc` 退出；写代码时按 `Shift + Tab` 可以更快地显示手册，如下图所示。
 
-![](%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E4%B8%8E%E6%95%B4%E7%90%86/https://ws1.sinaimg.cn/large/006tNc79gy1fielnrof6zj31120tjafe.jpg)
-![](%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E4%B8%8E%E6%95%B4%E7%90%86/Screen%20Shot%202017-08-10%20at%202.04.58%20PM.png)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fielnrof6zj31120tjafe.jpg)
 
 3. 取有意义的变量名，可以通过变量名判断变量是什么。
 
@@ -300,8 +298,7 @@ movies[(movies['genres'] == 'Comedy')
 
 如下图所示，我们把数据分成3组，然后对每个组求均值，最后整合在一块就是一次 split-apply-combine。
 
-![](%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E4%B8%8E%E6%95%B4%E7%90%86/https://ws3.sinaimg.cn/large/006tNc79gy1fidfd575x7j30dw09ddgu.jpg)
-![](%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E4%B8%8E%E6%95%B4%E7%90%86/yjNkiwL.png)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fidfd575x7j30dw09ddgu.jpg)
 
 我现在想知道：
 
