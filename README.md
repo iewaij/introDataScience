@@ -36,8 +36,7 @@ The Data Science Lifecycle
 - [ ] 提出问题与实验设计
 Problem Formulation and Experimental Design
 
-- [ ] 数据收集与整理
-Data Collecting, Unboxing and Wrangling
+- [x] [数据收集与整理 Data Collecting, Unboxing and Wrangling](https://github.com/iewaij/introDataScience/blob/master/Data%20Collecting%2C%20Unboxing%20and%20Wrangling.md)
 
 - [ ] 探索性数据分析
 Exploratory Data Analysis
