@@ -407,5 +407,3 @@ def someName(x):
 
 ## 致谢
 数据科学导论笔记基于加州大学伯克利校区 [DS100](http://www.ds100.org/sp17/syllabus) 与哈佛大学 [CS109](http://cs109.github.io/2015/pages/videos.html) 的课程主页改写，参考了课件、笔记、阅读材料及作业，感谢制作这两门课程的 Joe Blitzstein、Hanspeter Pfister、Verena Kaynig-Fittkau、Joseph E. Gonzalez、Joseph Hellerstein、Deborah Nolan 和 Bin Yu。本文基于 DS100  Week 2 - Data Wrangling，及 CS 109 的 Lecture 2 - Web Scraping, Regular Expressions, Data Reshaping, Data Cleanup, Pandas。
-
-#卡片/Datascience
