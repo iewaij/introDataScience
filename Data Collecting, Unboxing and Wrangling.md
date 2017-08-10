@@ -327,7 +327,7 @@ maxRating
 # 用布尔值选择数据
 maxRatedMovieId = ratingPerMovie[ratingPerMovie == maxRating] 
 maxRatedMovieTitle = movies[movies.index.isin(maxRatedMovieId.index)] 
- # 得到最高分的电影名称
+# 得到最高分的电影名称
 maxRatedMovieTitle['title']
 
 # 输出
