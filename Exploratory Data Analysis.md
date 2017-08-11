@@ -17,15 +17,15 @@
 
 另一类不正直的数据分析是研究者故意误导观众，例如 FOX 把柱状图的下半部分砍掉，造成增长很多的假象。
 
-![](pics/abce2a42e8fbcd551b0f90b00692c261_r.jpg.png)
+![](pics/foxChart1.png)
 
 而事实上，如果让柱状图从 0 开始显示，结果如下。
 
-![](pics/Fox-chart-corrected.png)
+![](pics/foxChart2.png)
 
 下图中，FOX 故意挑选某些月份的数据，误导观众以为奥巴马政府的失业率不断走高，可以看到 x 轴的月份根本不是每季度（By Quarter） 的。
 
-![](pics/02839064fc6b4197a6fcffa3c15c6b0d_r.jpg.png)
+![](pics/foxChart3.png)
  
 ## 简化图表
 尽最大的可能简化图表，数据可视化的初衷就是减轻人们理解数据的负担，简化图表能让观众更专注于数据上，可视化大师 Edward Tufte 提出了要用「最少的油墨」显示「最多的数据」，以下是几个简化要点。
