@@ -50,6 +50,6 @@ Relational Algebra and SQL
 Advanced SQL
 
 ## Change Log
-2017-08-11 完成探索性数据分析  
+2017-08-11 完成探索性数据分析  
 2017-08-10 完成数据收集与整理  
 2017-08-09 发布
