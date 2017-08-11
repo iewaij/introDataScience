@@ -1,0 +1,79 @@
+# 探索性数据分析
+## EDA 是什么
+探索性数据分析（Exploratory Data Analysis, EDA）像侦探工作，你不知道自己会找到什么，所以你也不会做过多的假设，通过可视化工具对数据进行一次又一次的检视来找到线索，并对结果保持开放的心态，正如 EDA 之父 John Tukey 所言，「探索性数据是一种态度，是对我们相信存在抑或不存在的事物保持灵活的审视」。
+
+> Exploratory data analysis is an attitude, a state of flexibility, a willingness to look for those things that we believe are not there, as well as those that we believe to be there.  
+
+与 EDA 区别的是传统统计分析（Formal Analysis），传统统计分析在假设样本分布后，把数据套入假设模型再做分析。EDA 所做的，就是重新检视我们对数据的理解，为之后的传统统计分析打下基础。
+
+本篇将讨论如何正确地运用可视化工具进行探索性数据分析，这些准则也适用于数据可视化，但探索性数据分析和数据可视化的目标是不同的，探索性数据分析重在「探索」，为研究者服务；数据可视化重在「讲故事」，为观众服务。
+
+## 正直的数据分析
+做任何研究，研究者都不能事先确定任何立场，对于 EDA 来说更是如此，研究者必须保持怀疑和谨慎的态度，即便数据结果与你预期大不相同，也要尽量做到客观。
+
+不正直的数据分析有两类，一类是研究者想让数据结果更显著来支持自己的立场，包括[篡改 p 值（p-hacking）](https://www.howsci.com/p-hacking.html)、数据窥探（data snooping）等等，这些行为往往让你的实验无法重复。xkcd 有篇[漫画](https://imgs.xkcd.com/comics/significant.png)就讽刺了这个现象。
+
+![](pics/significant.png)
+
+另一类不正直的数据分析是研究者故意误导观众，例如 FOX 把柱状图的下半部分砍掉，造成增长很多的假象。
+
+![](pics/abce2a42e8fbcd551b0f90b00692c261_r.jpg.png)
+
+而事实上，如果让柱状图从 0 开始显示，结果如下。
+
+![](pics/Fox-chart-corrected.png)
+
+下图中，FOX 故意挑选某些月份的数据，误导观众以为奥巴马政府的失业率不断走高，可以看到 x 轴的月份根本不是每季度（By Quarter） 的。
+
+![](pics/02839064fc6b4197a6fcffa3c15c6b0d_r.jpg.png)
+ 
+## 简化图表
+尽最大的可能简化图表，数据可视化的初衷就是减轻人们理解数据的负担，简化图表能让观众更专注于数据上，可视化大师 Edward Tufte 提出了要用「最少的油墨」显示「最多的数据」，以下是几个简化要点。
+
+首先，绝对不使用 3D，3D 完全不如 2D 直观。
+
+![](pics/dont.png)
+
+![](pics/3dBar.png)
+
+![](pics/2dBar.png)
+
+其次，简化一切无用的元素，去除背景、网格、图表框。
+
+![](pics/chartJunk1.png)
+
+![](pics/chartJunk2.png)
+
+![](pics/chartJunk3.png)
+ 
+## 用对图表
+![](pics/choosing_a_good_chart.jpg)
+
+A. V. Abela 制作了一张图表建议，放在他的[博客](http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html)上。简而言之，描述趋势使用折线图，描述数量使用柱状图（且必须从 0 开始），描述关系使用散点图，描述比例使用饼状图。
+
+科学家经过 30 年的研究，发现人对位置、长度和角度的感知最敏锐，可以用来表示数量，其次是面积和密度，可表示顺序，对于颜色和形状的感知是最不精确的，只可用来区分类别。
+
+![](pics/visEfficiency.png)
+
+## 用对颜色
+比较数量大小的时候，不要使用彩虹色，因为彩虹色不能体现线性关系，我们的认知没法感觉到红色比绿色「高」，更好的选择时用不同深浅的颜色。彩虹色还会对色盲人群造成困扰。
+
+颜色的建议可以在 [Color Brewer](http://colorbrewer2.org/#type=sequential&scheme=PuBu&n=3) 找到。这些颜色在数据可视化库 Seaborn 上也有。
+
+## 深入阅读
+[Flowing Data Blog](http://flowingdata.com)  
+[Visualize This](https://book.douban.com/subject/5969455/)  
+[Visual Explanations](https://book.douban.com/subject/1438332/)  
+[Envisioning Information](https://book.douban.com/subject/1861189/)  
+[The Visual Display of Quantitative Information](https://book.douban.com/subject/1316642/)  
+[Now You See It](https://book.douban.com/subject/3815834/)
+
+## 作业
+本篇笔记更「视觉向」，文字很难表达全面，所以推荐读者回顾课程视频，以对「什么样的可视化是好的可视化」有更好的感知。DS100 在这节课中使用了案例研究，并在案例研究中结合了数据整理和 EDA，在本篇笔记里没有提及，所以也推荐读者参阅。
+
+[CS109 Lecture Video: Exploratory Data Analysis](https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=4dc7719e-1ef4-4ee5-a9d9-fc48c3e13185)  
+[DS100 Lecture Slides: Exploratory Data Analysis](https://drive.google.com/file/d/0B7gkaDYGT5X5X2ZKaHZtZkVWVUE/view)  
+[CS109 Homework: Exploratory Data Analysis](https://github.com/cs109/2014/blob/master/homework/HW1.ipynb)
+
+## 致谢
+数据科学导论笔记基于加州大学伯克利校区 [DS100](http://www.ds100.org/sp17/syllabus) 与哈佛大学 [CS109](http://cs109.github.io/2015/pages/videos.html) 的课程主页改写，参考了课件、笔记、阅读材料及作业，感谢制作这两门课程的 Joe Blitzstein、Hanspeter Pfister、Verena Kaynig-Fittkau、Joseph E. Gonzalez、Joseph Hellerstein、Deborah Nolan 和 Bin Yu。本文基于 DS100  Week 3 - Exploratory Data Analysis，及 CS 109 Lecture 3 - Exploratory Data Analysis。
