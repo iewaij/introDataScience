@@ -30,26 +30,30 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 开源，协作。
 
 ## 目录
-- [ ] 数据科学家的日常—调查洛杉矶食品安全
-The Data Science Lifecycle
+- [ ] ~~数据科学家的日常—调查洛杉矶食品安全
+The Data Science Lifecycle~~
 
-- [ ] 提出问题与实验设计
-Problem Formulation and Experimental Design
+- [ ] ~~提出问题与实验设计
+Problem Formulation and Experimental Design~~
 
 - [x] [数据收集与整理 Data Collecting, Unboxing and Wrangling](https://nbviewer.jupyter.org/github/iewaij/introDataScience/blob/master/Data%20Collecting%2C%20Unboxing%20and%20Wrangling.ipynb)
 
 - [x] [探索性数据分析 Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/Exploratory%20Data%20Analysis.md)
 
-- [ ] 数据可视化
-Data Visualisation and Communication
+- [x] [用数据讲故事 Story Telling](https://github.com/iewaij/introDataScience/blob/master/Story%20Telling.md)
 
-- [ ] 关系代数和 SQL
-Relational Algebra and SQL
+- [ ] 关系代数和 SQL Relational Algebra and SQL
 
-- [ ] SQL 进阶
-Advanced SQL
+- [ ] 统计模型 Statistical Models
+
+- [ ] 误差与方差 Prediction Bias and Variance
+
+- [ ] 回归 Regression
+
 
 ## Change Log
+2017-08-17 修改目录
+2017-08-17 完成用数据讲故事
 2017-08-11 完成探索性数据分析  
 2017-08-10 完成数据收集与整理  
 2017-08-09 发布
