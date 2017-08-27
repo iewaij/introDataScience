@@ -1,0 +1,8 @@
+A: 105
+B: 106
+C: 110
+D: 114
+E: 115
+F: 221
+G: others
+H: unknown

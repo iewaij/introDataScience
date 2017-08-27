@@ -1,0 +1,15 @@
+{
+  "name": "Homework 2",
+  "endpoint": "cal/data100/sp17/hw2",
+  "src": [
+    "hw2.ipynb"
+  ],
+  "tests": {
+      "ok_tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
