@@ -32,11 +32,11 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 ## 目录
 - [x] [数据收集与整理 Data Collecting, Unboxing and Wrangling](https://nbviewer.jupyter.org/github/iewaij/introDataScience/blob/master/01.%20Data%20Collecting%2C%20Unboxing%20and%20Wrangling.ipynb)
 
-- [x] [探索性数据分析 Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/Exploratory%20Data%20Analysis.md)
+- [x] [探索性数据分析 Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/02.%20Exploratory%20Data%20Analysis.md)
 
-- [x] [用数据讲故事 Story Telling](https://github.com/iewaij/introDataScience/blob/master/Story%20Telling.md)
+- [x] [用数据讲故事 Story Telling](https://github.com/iewaij/introDataScience/blob/master/03.%20Story%20Telling.md)
 
-- [ ] 统计模型 Statistical Models
+- [x] [统计模型 Statistical Models](https://github.com/iewaij/introDataScience/blob/master/04.%20Statistical%20Models.md)
 
 - [ ] 误差与方差 Prediction Bias and Variance
 
@@ -53,7 +53,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 - [ ] 关系代数和关系型数据库 Relational Algebra and SQL
 
 ## Change Log
-2017-08-17 修改目录  
+2017-09-01 完成统计模型
 2017-08-17 完成用数据讲故事  
 2017-08-11 完成探索性数据分析  
 2017-08-10 完成数据收集与整理  
