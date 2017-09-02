@@ -54,7 +54,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 ## Change Log
 2017-09-01 完成统计模型  
-2017-08-17 完成用数据讲故事  
-2017-08-11 完成探索性数据分析  
+2017-08-17 完成用数据讲故事  
+2017-08-11 完成探索性数据分析  
 2017-08-10 完成数据收集与整理  
 2017-08-09 初始化
