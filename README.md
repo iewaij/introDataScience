@@ -38,7 +38,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [x] [统计模型 Statistical Models](https://github.com/iewaij/introDataScience/blob/master/04.%20Statistical%20Models.md)
 
-- [ ] 误差与方差 Prediction Bias and Variance
+- [ ] 误差与方差 Bias and Variance
 
 - [ ] 回归 Regression
 
@@ -53,8 +53,8 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 - [ ] 关系代数和关系型数据库 Relational Algebra and SQL
 
 ## Change Log
-2017-09-01 完成统计模型
-2017-08-17 完成用数据讲故事  
-2017-08-11 完成探索性数据分析  
+2017-09-01 完成统计模型  
+2017-08-17 完成用数据讲故事  
+2017-08-11 完成探索性数据分析  
 2017-08-10 完成数据收集与整理  
 2017-08-09 初始化
