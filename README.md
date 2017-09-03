@@ -54,7 +54,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [ ] 最佳实践 Best Practices
 
-- [ ] 推荐系统和并行计算k  Recommendations and MapReduce
+- [ ] 推荐系统和并行计算 Recommendations and MapReduce
 
 - [ ] 大数据处理 Spark
 
@@ -81,7 +81,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 ## 实验目录
 - [ ] [概率、分布与频率统计 Probability, Distributions, and Frequentist Statistics](https://github.com/iewaij/introDataScience/tree/master/material/lab/Probability%2C%20Distributions%2C%20and%20Frequentist%20Statistics)
-- [ ] [用 sklearn 和 statsmodels 实现回归与逻辑回归 Regression and Logistic Regression in sklearn and statsmodels](https://github.com/iewaij/introDataScience/tree/master/material/lab/Regression%20and%20Logistic%20Regression%20in%20sklearn%20and%20statsmodels)
+- [ ] [用 sklearn 和 statsmodels 实现回归与逻辑回归 Regression and Logistic Regression in sklearn and statsmodels](https://github.com/iewaij/introDataScience/tree/master/material/lab/Regression%20and%20Logistic%20Regression%20in%20sklearn%20and%20statsmodels)
 
 ## Change Log
 2017-09-01 完成推特分析作业  
