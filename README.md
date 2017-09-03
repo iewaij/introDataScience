@@ -36,7 +36,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [x] [用数据讲故事 Story Telling](https://github.com/iewaij/introDataScience/blob/master/03.%20Story%20Telling.md)
 
-- [ ] 高效演讲 Effective Presentations
+- [ ] 高效演讲 Effective Presentations
 
 - [x] [统计模型 Statistical Models](https://github.com/iewaij/introDataScience/blob/master/04.%20Statistical%20Models.md)
 
