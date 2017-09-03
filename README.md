@@ -36,6 +36,8 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [x] [用数据讲故事 Story Telling](https://github.com/iewaij/introDataScience/blob/master/03.%20Story%20Telling.md)
 
+- [ ] 高效演讲 Effective Presentations
+
 - [x] [统计模型 Statistical Models](https://github.com/iewaij/introDataScience/blob/master/04.%20Statistical%20Models.md)
 
 - [ ] 误差与方差 Bias and Variance
@@ -50,9 +52,21 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [ ] 集成方法 Ensemble Methods
 
-- [ ] 关系代数和关系型数据库 Relational Algebra and SQL
+- [ ] 最佳实践 Best Practices
 
-## 作业目录
+- [ ] 推荐系统和并行计算k  Recommendations and MapReduce
+
+- [ ] 大数据处理 Spark
+
+- [ ] 贝叶斯理论和贝叶斯方法 Bayes Theorem and Bayesian Methods
+
+- [ ] 文本聚类 Text and Clustering
+
+- [ ] 深度神经网络 Deep Networks
+
+- [ ] 实验设计 Experimental Design
+
+## 作业与实验目录
 
 - [x] [总统候选人推特分析：助手还是本人？ Language in the 2016 Presidential Election](https://github.com/iewaij/introDataScience/blob/master/material/homework/DS%20100/hw2/hw2.ipynb)
 - [ ] [探索性数据分析 Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/material/homework/CS%20109/HW1.ipynb)
