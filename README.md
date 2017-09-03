@@ -29,7 +29,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 能可视化的就不要用文字；  
 开源，协作。
 
-## 目录
+## 笔记目录
 - [x] [数据收集与整理 Data Collecting, Unboxing and Wrangling](https://nbviewer.jupyter.org/github/iewaij/introDataScience/blob/master/01.%20Data%20Collecting%2C%20Unboxing%20and%20Wrangling.ipynb)
 
 - [x] [探索性数据分析 Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/02.%20Exploratory%20Data%20Analysis.md)
@@ -52,7 +52,19 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [ ] 关系代数和关系型数据库 Relational Algebra and SQL
 
+## 作业目录
+
+- [x] [总统候选人推特分析：助手还是本人？ Language in the 2016 Presidential Election](https://github.com/iewaij/introDataScience/blob/master/material/homework/DS%20100/hw2/hw2.ipynb)
+- [ ] [探索性数据分析 Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/material/homework/CS%20109/HW1.ipynb)
+- [ ] [~~数据清洗与探索性数据分析 Data Wrangling and Exploratory Data Analysis~~](https://github.com/iewaij/introDataScience/blob/master/material/homework/DS%20100/hw3/hw3.ipynb)
+- [ ] [进一步探索性数据分析 More Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/material/homework/CS%20109/HW2.ipynb)
+- [ ] [爬虫 Crawling the Web](https://github.com/iewaij/introDataScience/blob/master/material/homework/DS%20100/hw5/hw5.ipynb)
+- [ ] [预测房价 Prediction on Housing Prices](https://github.com/iewaij/introDataScience/blob/master/material/homework/DS%20100/hw6/hw6.ipynb)
+- [ ] [预测与分类 Prediction and Classification](https://github.com/iewaij/introDataScience/blob/master/material/homework/CS%20109/HW3.ipynb)
+
+
 ## Change Log
+2017-09-01 完成推特分析作业  
 2017-09-01 完成统计模型  
 2017-08-17 完成用数据讲故事  
 2017-08-11 完成探索性数据分析  
