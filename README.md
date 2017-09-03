@@ -36,7 +36,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [x] [用数据讲故事 Story Telling](https://github.com/iewaij/introDataScience/blob/master/03.%20Story%20Telling.md)
 
-- [ ] 高效演讲 Effective Presentations
+- [ ] 高效演讲 Effective Presentations
 
 - [x] [统计模型 Statistical Models](https://github.com/iewaij/introDataScience/blob/master/04.%20Statistical%20Models.md)
 
@@ -54,7 +54,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [ ] 最佳实践 Best Practices
 
-- [ ] 推荐系统和并行计算k  Recommendations and MapReduce
+- [ ] 推荐系统和并行计算 Recommendations and MapReduce
 
 - [ ] 大数据处理 Spark
 
