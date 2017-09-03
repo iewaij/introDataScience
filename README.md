@@ -36,7 +36,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [x] [用数据讲故事 Story Telling](https://github.com/iewaij/introDataScience/blob/master/03.%20Story%20Telling.md)
 
-- [ ] 高效演讲 Effective Presentations
+- [ ] 高效演讲 Effective Presentations
 
 - [x] [统计模型 Statistical Models](https://github.com/iewaij/introDataScience/blob/master/04.%20Statistical%20Models.md)
 
@@ -54,7 +54,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [ ] 最佳实践 Best Practices
 
-- [ ] 推荐系统和并行计算 Recommendations and MapReduce
+- [ ] 推荐系统和并行计算k  Recommendations and MapReduce
 
 - [ ] 大数据处理 Spark
 
@@ -66,16 +66,22 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [ ] 实验设计 Experimental Design
 
-## 作业与实验目录
+## 作业目录
 
+### DS100
 - [x] [总统候选人推特分析：助手还是本人？ Language in the 2016 Presidential Election](https://github.com/iewaij/introDataScience/blob/master/material/homework/DS%20100/hw2/hw2.ipynb)
-- [ ] [探索性数据分析 Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/material/homework/CS%20109/HW1.ipynb)
-- [ ] [~~数据清洗与探索性数据分析 Data Wrangling and Exploratory Data Analysis~~](https://github.com/iewaij/introDataScience/blob/master/material/homework/DS%20100/hw3/hw3.ipynb)
-- [ ] [进一步探索性数据分析 More Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/material/homework/CS%20109/HW2.ipynb)
+- [ ] [数据清洗与探索性数据分析 Data Wrangling and Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/material/homework/DS%20100/hw3/hw3.ipynb)
 - [ ] [爬虫 Crawling the Web](https://github.com/iewaij/introDataScience/blob/master/material/homework/DS%20100/hw5/hw5.ipynb)
 - [ ] [预测房价 Prediction on Housing Prices](https://github.com/iewaij/introDataScience/blob/master/material/homework/DS%20100/hw6/hw6.ipynb)
+
+### CS100
+- [ ] [探索性数据分析 Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/material/homework/CS%20109/HW1.ipynb)
+- [ ] [进一步探索性数据分析 More Exploratory Data Analysis](https://github.com/iewaij/introDataScience/blob/master/material/homework/CS%20109/HW2.ipynb)
 - [ ] [预测与分类 Prediction and Classification](https://github.com/iewaij/introDataScience/blob/master/material/homework/CS%20109/HW3.ipynb)
 
+## 实验目录
+- [ ] [概率、分布与频率统计 Probability, Distributions, and Frequentist Statistics](https://github.com/iewaij/introDataScience/tree/master/material/lab/Probability%2C%20Distributions%2C%20and%20Frequentist%20Statistics)
+- [ ] [用 sklearn 和 statsmodels 实现回归与逻辑回归 Regression and Logistic Regression in sklearn and statsmodels](https://github.com/iewaij/introDataScience/tree/master/material/lab/Regression%20and%20Logistic%20Regression%20in%20sklearn%20and%20statsmodels)
 
 ## Change Log
 2017-09-01 完成推特分析作业  
