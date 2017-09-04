@@ -40,7 +40,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 - [x] [统计模型 Statistical Models](https://github.com/iewaij/introDataScience/blob/master/04.%20Statistical%20Models.md)
 
-- [ ] 误差与方差 Bias and Variance
+- [x] [偏差与方差 Bias and Variance](https://github.com/iewaij/introDataScience/blob/master/05.%20Bias%20and%20Variance.md)
 
 - [ ] 回归 Regression
 
