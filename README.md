@@ -12,7 +12,7 @@ Given the assumption that readers are Chinese speakers and interested in Data Sc
 
 ## 知识储备
 默认读者具有以下知识：
-* 统计学基础：理解方差、平均值、线性回归、概率等基本概念
+* 概率统计基础：理解方差、期望值（均值）、联合概率、条件概率等基本概念
 * Python 基础：理解函数、循环、变量、列表生成式、类等基本概念，知道 pip、Jupyter Notebook、NumPy、Pandas 等工具
 * 英语技能： 四级或 IELTS 6 分以上水平，能浏览英语文档及文献
 * 知识技能：科学上网并使用 Google 查找解决方案
