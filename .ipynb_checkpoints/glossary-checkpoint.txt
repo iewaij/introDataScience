@@ -1,0 +1,3 @@
+关系数据, Relational Data
+高斯-马尔科夫定理，Gauss-Markov Theorem
+均值回归，Regression Toward the Mean
