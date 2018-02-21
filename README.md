@@ -56,6 +56,6 @@ Wasserman, L. (2013) All of statistics: a concise course in statistical inferenc
 - [ ] 数据分析
 
 ## Changelog, Corrections and Updates
-2018-02-21 添加 CC BY-NC-SA 4.0 条款
-2018-02-21 最小二乘法线性回归
+2018-02-21 添加 CC BY-NC-SA 4.0 条款  
+2018-02-21 最小二乘法线性回归  
 2018-02-01 前言
