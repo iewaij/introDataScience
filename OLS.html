@@ -12170,7 +12170,7 @@ X^TX \hat{w} &amp; = X^Ty \\
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>贝叶斯学派视角下的线性回归是完全不同的视角，鄙人不才没法讨论清楚。贝叶斯线性回归在特定条件下可以得到和极大似然估计/最小二乘法相同的结论和分布，但极大似然估计/最小二乘法要求$\text{数据条目数}\ n \geq \text{数据特征数}\ d + 1$，这样 $X^TX$ 才可以转置，也就是说 $X$ 必须是个高高瘦瘦的矩阵，而贝叶斯线性回归没有这样的要求。直观的理解是如果我们至少要有 2 个点，才能在二维平面拟合一条直线，只少有 3 个点，才能在三维空间里拟合一个平面。这里我们有 5 条数据和 2 项特征，$5 &gt; 2+1$，因此可以使用极大似然估计/最小二乘法。</p>
+<p>贝叶斯学派视角下的线性回归是完全不同的视角，鄙人不才没法讨论清楚。贝叶斯线性回归在特定条件下可以得到和极大似然估计/最小二乘法相同的分布，但极大似然估计/最小二乘法要求$\text{数据条目数}\ n \geq \text{数据特征数}\ d + 1$，$X$ 中的各向量线性无关 (linearly independent)，这样 $X^TX$ 才有逆矩阵，而贝叶斯线性回归没有这样的要求。直观的理解是如果我们至少要有 2 个不同的点，才能在二维平面拟合一条直线，至少要有 3 个不共线的点，才能在三维空间里拟合一个平面。这里我们有 5 条数据和 2 项特征，$5 &gt; 2+1$，因此可以使用极大似然估计/最小二乘法。</p>
 
 </div>
 </div>
@@ -12179,8 +12179,7 @@ X^TX \hat{w} &amp; = X^Ty \\
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="img/surfaceLinear.png" width=50%><img src="img/surfaceQuad.png" width=50%></p>
-
+<div style="text-align:left"><img src="img/surfaceLinear.png" width=50%></div><div style="text-align:right"><img src="img/surfaceQuad.png" width=50%></div>
 </div>
 </div>
 </div>
@@ -12293,7 +12292,7 @@ $$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>最小二乘法和投影矩阵是两种完全不同的思路，却得到了相同结论，岂不妙哉？</p>
+<p>最小二乘法和投影矩阵是两种完全不同的思路，却得到了相同结论，究其原因，投影使 $\hat{y}$ 与 $y$ 的欧式距离最短，这与最小二乘法让误差项平方和最小的思想不谋而合，岂不妙哉？</p>
 
 </div>
 </div>
@@ -12317,6 +12316,18 @@ $$</p>
 <p>极大似然估计和贝叶斯线性回归得出相同分布，引自 Kevin Murphy 的 <a href="https://www.cs.ubc.ca/~murphyk/MLbook/">Machine learning: a probabilistic perspective</a> p.237。</p>
 <p>投影矩阵的性质参考了 Gilbert Strang 的 <a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/least-squares-determinants-and-eigenvalues/projections-onto-subspaces/">Linear Algebra</a>。</p>
 <p>本文大部分图片引自 Kevin Murphy 的 <a href="http://people.cs.ubc.ca/~murphyk/MLbook/figReport-16-Aug-2012/pmlFigureCodeTable.html">Machine learning: a probabilistic perspective 的图表</a>和 John W. Paisley 在 edx 开设的 <a href="https://www.edx.org/course/machine-learning-columbiax-csmm-102x-3?source=aw&amp;awc=6798_1519170578_f1f2f564d9223983500725b947ccabe5&amp;utm_source=aw&amp;utm_medium=affiliate_partner&amp;utm_content=text-link&amp;utm_term=301045_https://www.class-central.com/">Machine Learning</a>。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20462;&#25913;&#19982;&#21208;&#35823;">&#20462;&#25913;&#19982;&#21208;&#35823;<a class="anchor-link" href="#&#20462;&#25913;&#19982;&#21208;&#35823;">&#182;</a></h2><ul>
+<li>修改了最后一段结论。</li>
+<li>$X^TX$ 的逆矩阵存在需要两个条件，1. 线性无关 2. 行数 &gt; 列数，因此修改了文章对 $(X^TX)^{-1}$ 存在的条件和直觉上的理解。</li>
+</ul>
 
 </div>
 </div>
