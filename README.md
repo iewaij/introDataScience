@@ -44,7 +44,8 @@ Wasserman, L. (2013) All of statistics: a concise course in statistical inferenc
     - 期望
     - 大数定理及中心极限定理
     - 估计
-    - [最小二乘法线性回归](http://lijiawei.cc/introDataScience/OLS.html)
+    - [最小二乘法线性回归](https://iewaij.github.io/introDataScience/OLS.html)
+    - [高斯马尔科夫定理](https://iewaij.github.io/introDataScience/GaussMarkov.html)
 
 - [ ] 机器学习笔记
 
@@ -53,6 +54,7 @@ Wasserman, L. (2013) All of statistics: a concise course in statistical inferenc
 - [ ] 数据分析
 
 ## Changelog
+2018-02-28 高斯马尔科夫定理
 2018-02-21 添加 CC BY-NC-SA 4.0 条款  
 2018-02-21 最小二乘法线性回归  
 2018-02-01 前言
